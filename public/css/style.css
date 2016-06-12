@@ -39,7 +39,7 @@ a     {
 
 
 .section-1 {
-  background-image:url("/photo/homme.jpeg");
+  background-image:url("/photo/Homme.jpeg");
   margin-top: 10px;
   height: calc(100vh - 160px);
   background-size: cover;
