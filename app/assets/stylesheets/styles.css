@@ -1,3 +1,104 @@
 body {
-  background: lightblue;
+  background: white;
+}
+.container {
+    width: 1050px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px;
+    box-shadow: 1px 1px 1px 1px grey
+
+}
+
+.logoepson {
+  width: 150px;
+  float: left;
+
+}
+
+.menu {
+  display: inline-block;
+
+}
+ul {
+    display: inline-block;
+    margin-left: 200px;
+
+  }
+li {
+    display: inline-block;
+
+}
+
+a     {
+  padding: 10px;
+  text-decoration: none;
+
+}
+
+
+
+.section-1 {
+  background-image:url("file:///Users/florentdirand/Desktop/siteantoine/homme.jpeg");
+  margin-top: 10px;
+  height: calc(100vh - 160px);
+  background-size: cover;
+}
+
+.avis {
+  width: 200px;
+  background: #063889;
+  color: white;
+  margin-top: 100px;
+  position: absolute;
+  margin-left: 150px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  text-align: center;
+
+}
+h1 {
+  display: inline-block;
+  margin: 7px;
+
+}
+
+h2 {
+  display: inline-block;
+  color: orange;
+  text-transform: uppercase;
+  padding: 0px;
+  margin: auto;
+
+}
+
+.fa-star {
+  display: block;
+}
+
+@media screen and (max-width: 1130px) {
+  .header {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .ull {
+  display: block;
+   }
+}
+
+@media screen and (max-width: 1130px) {
+  .section-1 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .avis {
+    margin-left: 20px;
+  }
 }
